@@ -1,6 +1,9 @@
 def divide(a, b):
     return a/b
 
+def subtract(a,b):
+    return a - b
+
 def isLeap(y): 
     leap = False
     if y % 4 == 0:
