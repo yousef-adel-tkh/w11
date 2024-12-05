@@ -1,5 +1,5 @@
 import unittest
-from w10 import *
+from funcs import *
 
 class testClass(unittest.TestCase):
 
@@ -76,5 +76,7 @@ class testClass(unittest.TestCase):
 
         self.assertEqual(getInvestmentValue(1,12,1), 1.13)
 
-
+    # divide
+    def test_divide(self):
+        self.assertEqual(divide(5,2),2.5)
 
